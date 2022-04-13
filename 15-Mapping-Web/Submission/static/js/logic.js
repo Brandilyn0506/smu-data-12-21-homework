@@ -6,7 +6,7 @@ $(document).ready(function() {
 
 function Work() {
     var url = `https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson`;
-    var url2 = `static/data/PB2002_boundaries.json`
+    var url2 = `static/data/PB2002_boundaries.json`;
     getAjax(url,url2);
 
 
